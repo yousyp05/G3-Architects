@@ -1,0 +1,261 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* Global style start *************************/
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.h2 {
+    font-size: 2.8125rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.text {
+    font-size: 1rem;
+    line-height: 26px;
+    color: #727272;
+}
+
+.btn {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Global style end ************************/
+
+/* nav bar Start */
+.hero {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.hero h2 {
+    font-weight: 700;
+}
+
+.nav-bar {
+    margin-top: 45px;
+}
+
+nav ul {
+    gap: 50px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    color: #424242;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.fa-bars {
+    display: none;
+}
+
+/* Hero section */
+.hero h1 {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 70%;
+    margin: 32px auto;
+}
+
+.hero img {
+    margin-top: 70px;
+}
+
+/* Quick list of Our Features */
+.quick-container {
+    padding: 0 50px;
+    margin-top: 90px;
+}
+
+.quick-box {
+    gap: 70px;
+}
+
+.quick-content {
+    max-width: 40%;
+}
+
+.quick-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    flex: 1.5;
+}
+
+.Quick-image img {
+    border-radius: 10px;
+}
+
+.quick-text {
+    max-width: 100%;
+    padding-bottom: 32px;
+}
+
+.text1 {
+    color: #727272;
+}
+
+.text2 {
+    color: #FF900E;
+}
+
+/* Features you will love & enjoy */
+.features {
+    margin-top: 136px;
+}
+
+.features-container img {
+    width: 100%;
+}
+
+.features-title {
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+
+.features-text {
+    max-width: 70%;
+    margin-bottom: 30px;
+}
+
+.features-text {
+    margin-left: 100;
+}
+
+.card h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px 35px;
+    max-width: 70%;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgb(245, 245, 248);
+}
+
+/* big button */
+.Year {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.Experience {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Some Facts */
+.Some-Facts-title {
+    margin-top: 100px;
+}
+.Some-Facts-text {
+    max-width: 45%;
+}
+.Some-Facts-card-box {
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 100px;
+}
+.Some-Facts-card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 36px;
+    text-align: center;
+}
+.Some-Facts-card h2 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 2.8125rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.features-btn{
+    padding: 45px 48px;
+    position: relative;
+    bottom: 100px;
+    right: 80px;
+}
+.architect-img{
+    max-width: 100%;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    margin-top: 150px;
+}
+footer p{
+    margin-bottom: 50px;
+}
+.sponsors-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 130px;
+}
+.footer-text{
+    max-width: 100%;
+    background-color: #FFF4E7;
+    padding: 40px 0px;
+    
+}
+.footer-text h5{
+    color: #424242;
+    font-size: 1.25rem;
+}
